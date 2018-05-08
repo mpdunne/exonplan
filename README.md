@@ -4,8 +4,6 @@ What does exonplan do?
 ==========
 Exonplan is a simple python script that elucidates the exon structures of genes in amino acid alignments.
 
-![alt text](http://empede.co.uk/imgrepos/exonplan_eg.png? "ExonPlan - example alignment")
-
 https://github.com/mpdunne/exonplan
 
 Usage
@@ -33,3 +31,7 @@ ExonPlan uses three symbols to indicate exon location. By default, these are alt
 ExonPlan assumes that the first codon in a sequence is a start, and the final codon is a stop. This can be turned off using ```--starts no``` and ```--ends no``` respectively.
 
 There are three output options, specified using ```--outfmt i```, where ```i``` is either: ```0```: output plan only; ```1```: output alignment followed by plan; ```2```: output alignment interleaved with plan.
+
+Example
+=======
+![alt text](http://empede.co.uk/imgrepos/exonplan_eg.png? "ExonPlan - example alignment")
