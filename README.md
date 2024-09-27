@@ -6,6 +6,8 @@ Exonplan is a simple python script that elucidates the exon structures of genes 
 
 https://github.com/mpdunne/exonplan
 
+Note, Exonplan is written in Python 2! Yes that's right, it's a fossil.
+
 Usage
 =====
 
